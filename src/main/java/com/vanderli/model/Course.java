@@ -19,4 +19,14 @@ public class Course {
     @Column(length = 10, nullable = false)
     private String category;
 
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
 }
